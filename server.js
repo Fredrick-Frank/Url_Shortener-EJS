@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 
 //connecting to our database
 //to use the env file:
